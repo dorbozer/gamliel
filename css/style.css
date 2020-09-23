@@ -3,6 +3,12 @@ html {
   padding: env(safe-area-inset);
 }
 
+html,
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
 .row,
 .container-fluid {
   margin-left: 0px !important;
@@ -180,42 +186,6 @@ a.btn,
 
 
 /*============= OUR SERVICES SECTION =============*/
-
-
-.services-column {
-  background-color: white;
-  padding: 2rem;
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
-  transition: transform .7s ease;
-  overflow: hidden;
-  position: relative;
-}
-
-.services-column:hover {
-  transform: scale(1.1);
-  color: white;
-  background-color: rgba(250, 114, 3, 0.979);
-}
-
-.services-column p {
-  opacity: .8;
-  margin-top: 1.3rem;
-}
-
-.services-column h4 {
-  font-size: 1.1rem;
-  padding: .4rem;
-}
-
-.services-column .item {
-  font-weight: 700;
-}
-
-
-/*============= OUR SERVICES SECTION =============*/
-
-
-
 .fixed {
   position: relative;
   width: 100%;
@@ -251,6 +221,42 @@ a.btn,
   padding: 7rem 0;
   z-index: 1000;
 }
+ 
+
+.services-column {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
+  transition: transform .7s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-column:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: rgba(250, 114, 3, 0.979);
+}
+
+.services-column p {
+  opacity: .8;
+  margin-top: 1.3rem;
+}
+
+.services-column h4 {
+  font-size: 1.1rem;
+  padding: .4rem;
+}
+
+.services-column .item {
+  font-weight: 700;
+}
+
+
+/*============= OUR SERVICES SECTION =============*/
+
+
+
 
 
 /*============= profil-img  =============*/
