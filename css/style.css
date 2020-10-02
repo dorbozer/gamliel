@@ -1,7 +1,7 @@
 /*-- iPhone X Remove Gutters --*/
-/* html {
+html {
   padding: env(safe-area-inset);
-} */
+}
 
 html,
 body {
