@@ -92,7 +92,7 @@ a.btn,
 }
 
 .home-inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/gallery_Gamliel_.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../img/home_img.jpg');
   position: fixed;
   height: 100%;
   width: 100%;
@@ -253,8 +253,6 @@ a.btn,
 }
 
 
-/*============= OUR SERVICES SECTION =============*/
-
 
 
 
@@ -289,6 +287,42 @@ a.btn,
 
   color: black;
 }
+
+
+/*=============  two boxs columns =============*/
+
+.two-boxs-columns {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 .8rem  rgba(0, 0, 0, 0.075);
+  transition: transform .7s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.two-boxs-columns p {
+  opacity: .8;
+  margin-top: 1.3rem;
+}
+
+.two-boxs-columns h4 {
+  font-size: 1.1rem;
+  padding: .4rem;
+}
+
+.two-boxs-columns .item {
+  font-weight: 700;
+}
+
+
+/*============= gallery heading
+  =============*/
+  gallery-heading
+
+  .gallery-heading{
+    padding-top: 125px;
+    padding-bottom: 80px;
+  }
 
 
 /*============= footer  =============*/
@@ -381,48 +415,39 @@ a.btn,
 
 
 
+.modal-header .ggggg{
+  text-align: center !important;
+  background-color: cyan;
+}
 
 
-.qqq{
-width: 350px;
-height: 450px;
-  
-  border: 3px solid;
-  box-shadow: 10px 10px 5px #aaaaaa;
+.modal-body{
 
+  background-color: chocolate;
 }
 
 
 
+/*============= teem  =============*/
 
 
+.h6-color{
+  text-align: center;
+  color: rgba(250, 114, 3, 0.979);
 
+}
+.card{
 
+  margin: 30px;
 
-.ser {
-  background-color: white;
-  padding: 2rem;
-  box-shadow: 0 0 .8rem  rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0 .8rem  rgba(0, 0, 0, 0.158);
   transition: transform .7s ease;
   overflow: hidden;
   position: relative;
 }
 
-.ser p {
-  opacity: .8;
-  margin-top: 1.3rem;
+.card:hover{
+
+  transform: scale(1.1);
+
 }
-
-.ser h4 {
-  font-size: 1.1rem;
-  padding: .4rem;
-}
-
-.ser .item {
-  font-weight: 700;
-}
-
-
-
-
-
