@@ -7,7 +7,7 @@ html,
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 
 .row,
@@ -207,6 +207,7 @@ a.btn,
   position: fixed;
   height: 100%;
   width: 100%;
+  background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
