@@ -204,7 +204,7 @@ a.btn,
 
 .fixed-dark {
   background-image: url('../img/dark-img.jpg');
-  position: fixed;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   background-size: cover;
