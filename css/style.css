@@ -16,6 +16,14 @@ body {
   margin-right: 0px !important;
 }
 
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+  content: "";
+  height: 4rem;
+  display: block;
+  margin-top: -4rem;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar {
@@ -131,12 +139,18 @@ a.btn,
 }
 
 .caption-underline {
-  width: 27rem;
+  width: 20rem;
   height: .1rem;
   background-color: rgba(250, 114, 3, 0.979);
   margin: 0 auto;
 }
 
+.caption-underline-Second-row {
+  width: 34rem;
+  height: .1rem;
+  background-color: rgba(250, 114, 3, 0.979);
+  margin: 0 auto;
+}
 
 /*-- Bouncing Down Arrow --*/
 
@@ -151,7 +165,6 @@ a.btn,
 .down-arrow .svg-inline--fa {
   color: rgba(250, 114, 3, 0.979);
   font-size: 2.2rem;
-
   opacity: .7;
 }
 
@@ -189,7 +202,7 @@ a.btn,
   height: 300px;
   align-items: center;
 }
-  
+
 
 
 
@@ -265,7 +278,7 @@ a.btn,
 }
 
 
-/*=============  tel =============*/
+/*=============  phone =============*/
 
 
 .click-to-call {
@@ -281,8 +294,39 @@ a.btn,
 
 /*============= teem  =============*/
 
+.teem {
+  margin: 0 1rem;
+  margin-top: 3rem;
+  width: 320px;
+  height: 100%;
+  border: .1rem solid rgba(0, 0, 0, .075);
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+  transition: transform .4s ease;
 
-.h6-color {
+}
+
+.teem:hover {
+  transform: scale(.95);
+}
+
+.teem img {
+  width: 316px;
+  height: 300px;
+
+}
+
+.teem-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.teem-second-title {
+  padding-bottom: 8px;
+  color: rgba(250, 114, 3, 0.979);
+}
+
+/* .h6-color {
   text-align: center;
   color: rgba(250, 114, 3, 0.979);
 
@@ -301,13 +345,13 @@ a.btn,
   border: .1rem solid rgba(0, 0, 0, .075);
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
   transition: transform .4s ease;
-}
+} */
 
 
 /*============= gallery heading
   =============*/
-gallery-heading .gallery-heading {
-  padding-top: 125px;
+.gallery-heading .gallery-heading {
+  padding-top: 325px;
   padding-bottom: 80px;
 }
 
@@ -366,13 +410,6 @@ gallery-heading .gallery-heading {
   transition: all .2s linear;
 }
 
-.icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px
-}
-
 .icons a:active,
 .icons a:focus,
 .icons a:hover {
@@ -410,3 +447,96 @@ gallery-heading .gallery-heading {
 
 
 
+
+
+
+
+@media (max-width: 767.98px) {
+
+  /* icons {
+    margin: auto;
+    list-style: none;
+    text-align: right;
+  }
+  
+  .icons a {
+    background-color: #00000081;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+  
+  .icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+  } */
+
+  /* .caption h1 {
+    font-size: 6rem;
+  } */
+
+}
+
+
+.img-btn {
+  border: solid rgba(250, 114, 3, 0.979) 1px;
+  color: white;
+}
+
+
+.img-btn:hover {
+
+  background-color: white;
+  color: rgba(250, 114, 3, 0.979);
+}
+
+
+
+
+/*============= teem  =============*/
+
+
+.teem {
+  /* padding: 0 15px 0 15px; */
+  margin: 0 1rem !important;
+  margin-top: 3rem;
+  width: 320px;
+  height: 100%;
+  /* height: 600px; */
+  border: .1rem solid rgba(0, 0, 0, .075);
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+  transition: transform .4s ease !important;
+
+}
+
+.teem:hover {
+  transform: scale(.95) !important;
+}
+
+.teem img {
+  width: 316px;
+  height: 300px;
+
+}
+
+.teem-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.teem-second-title {
+  padding-bottom: 8px;
+  color: rgba(250, 114, 3, 0.979);
+}
