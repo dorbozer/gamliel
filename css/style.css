@@ -1,4 +1,4 @@
-/*-- iPhone X Remove Gutters --*/
+/*============ iPhone X Remove Gutters =============*/
 html {
   padding: env(safe-area-inset);
 }
@@ -7,7 +7,6 @@ html,
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  /* background-color: cyan; */
 }
 
 .row,
@@ -16,7 +15,8 @@ body {
   margin-right: 0px !important;
 }
 
-/*--- Nav Scrolling Offset --*/
+
+/*============= Nav Scrolling Offset =============*/
 .offset:before {
   content: "";
   height: 4rem;
@@ -25,7 +25,6 @@ body {
 }
 
 /*============= NAVIGATION =============*/
-
 .navbar {
   padding: .7rem 1rem;
   text-transform: uppercase;
@@ -60,8 +59,8 @@ body {
   transition: background-color 1s ease;
 }
 
-/*-- Remove Button Outline --*/
 
+/*=============  Remove Button Outline   =============*/
 button:focus,
 a:focus,
 a.btn:focus {
@@ -79,9 +78,7 @@ a.btn,
 }
 
 
-/*============= LANDING PAGE =============*/
-
-/*--- Fixed Landing Page Section --*/
+/*============= Fixed Landing Page Section =============*/
 .landing {
   position: relative;
   width: 100%;
@@ -114,9 +111,7 @@ a.btn,
 }
 
 
-/*-- Landing Page Caption --*/
-
-
+/*============= Landing Page Caption =============*/
 .caption {
   z-index: 30;
   position: absolute;
@@ -151,9 +146,20 @@ a.btn,
   background-color: rgba(250, 114, 3, 0.979);
   margin: 0 auto;
 }
+/*============= Bouncing Down Arrow =============*/
+.caption-btn {
+  border: solid rgba(250, 114, 3, 0.979) 1px;
+  color: white;
+}
 
-/*-- Bouncing Down Arrow --*/
 
+.caption-btn:hover {
+
+  background-color: white;
+  color: rgba(250, 114, 3, 0.979);
+}
+
+/*============= Bouncing Down Arrow =============*/
 .arrow {
   position: absolute;
   bottom: 0;
@@ -173,8 +179,7 @@ a.btn,
 }
 
 
-/*-- heading --*/
-
+/*============= heading =============*/
 .heading {
   font-size: 1.9rem;
   font-weight: 700;
@@ -191,24 +196,7 @@ a.btn,
 }
 
 
-/*============= profil-img  =============*/
-
-
-.profil-img {
-  background-image: url('../img/yoni.jpg');
-  background-size: cover;
-  position: relative;
-  width: 300px;
-  height: 300px;
-  align-items: center;
-}
-
-
-
-
 /*============= OUR SERVICES SECTION =============*/
-
-
 .fixed {
   position: relative;
   width: 100%;
@@ -227,7 +215,6 @@ a.btn,
 
 .fixed-dark {
   background-image: url('../img/dark-img.jpg');
-
   z-index: -999 !important;
   display: block;
   top: 0;
@@ -246,7 +233,7 @@ a.btn,
   padding: 7rem 0;
   z-index: 1000;
 }
-
+/*============= services columns =============*/
 
 .services-column {
   background-color: white;
@@ -279,46 +266,35 @@ a.btn,
 
 
 /*=============  phone =============*/
-
-
 .click-to-call {
   font-size: 1.7rem;
   color: rgba(250, 114, 3, 0.979);
 }
 
 .click-to-call:hover {
-
   color: black;
 }
 
 
-/*============= teem  =============*/
-
+/*============= our team  =============*/
 .teem {
-  margin: 0 1rem;
+  /* padding: 0 15px 0 15px; */
+  margin: 0 1rem !important;
   margin-top: 3rem;
   width: 320px;
   height: 100%;
   border: .1rem solid rgba(0, 0, 0, .075);
   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
-  transition: transform .4s ease;
-
-}
-
-.teem:hover {
-  transform: scale(.95);
 }
 
 .teem img {
   width: 316px;
   height: 300px;
-
 }
 
 .teem-title {
   padding-top: 20px;
   padding-bottom: 10px;
-
 }
 
 .teem-second-title {
@@ -326,37 +302,14 @@ a.btn,
   color: rgba(250, 114, 3, 0.979);
 }
 
-/* .h6-color {
-  text-align: center;
-  color: rgba(250, 114, 3, 0.979);
-
-}
-
-.card:hover {
-  transform: scale(.95);
-}
-
-.card {
-  height: 100%;
-  border-radius: 0;
-  text-align: center;
-  margin: 0 1rem;
-  margin-top: 3rem;
-  border: .1rem solid rgba(0, 0, 0, .075);
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
-  transition: transform .4s ease;
-} */
-
-
-/*============= gallery heading
-  =============*/
+/*============= gallery heading =============*/
 .gallery-heading .gallery-heading {
   padding-top: 325px;
   padding-bottom: 80px;
 }
 
-/*============= google maps =============*/
 
+/*============= google maps =============*/
 .iframe {
   width: 100%;
   height: 300px;
@@ -364,8 +317,6 @@ a.btn,
 
 
 /*============= footer  =============*/
-
-
 .site-footer {
   background-color: #26272b;
   padding: 45px 0 20px;
@@ -373,7 +324,6 @@ a.btn,
   line-height: 24px;
   color: whitesmoke;
 }
-
 
 .site-footer h6 {
   color: rgba(250, 114, 3, 0.979);
@@ -384,10 +334,7 @@ a.btn,
 }
 
 
-
 /*============= icons  =============*/
-
-
 .icons {
   margin: auto;
   list-style: none;
@@ -439,21 +386,9 @@ a.btn,
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 767.98px) {
 
-  /* icons {
+  icons {
     margin: auto;
     list-style: none;
     text-align: right;
@@ -480,63 +415,7 @@ a.btn,
     height: 34px;
     width: 34px;
     font-size: 14px
-  } */
-
-  /* .caption h1 {
-    font-size: 6rem;
-  } */
+  }
 
 }
 
-
-.img-btn {
-  border: solid rgba(250, 114, 3, 0.979) 1px;
-  color: white;
-}
-
-
-.img-btn:hover {
-
-  background-color: white;
-  color: rgba(250, 114, 3, 0.979);
-}
-
-
-
-
-/*============= teem  =============*/
-
-
-.teem {
-  /* padding: 0 15px 0 15px; */
-  margin: 0 1rem !important;
-  margin-top: 3rem;
-  width: 320px;
-  height: 100%;
-  /* height: 600px; */
-  border: .1rem solid rgba(0, 0, 0, .075);
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
-  transition: transform .4s ease !important;
-
-}
-
-.teem:hover {
-  transform: scale(.95) !important;
-}
-
-.teem img {
-  width: 316px;
-  height: 300px;
-
-}
-
-.teem-title {
-  padding-top: 20px;
-  padding-bottom: 10px;
-
-}
-
-.teem-second-title {
-  padding-bottom: 8px;
-  color: rgba(250, 114, 3, 0.979);
-}
