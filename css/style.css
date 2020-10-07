@@ -26,6 +26,8 @@ body {
 
 /*============= NAVIGATION =============*/
 .navbar {
+  text-align: right;
+
   padding: .7rem 1rem;
   text-transform: uppercase;
   font-weight: 700;
