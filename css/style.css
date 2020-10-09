@@ -164,13 +164,20 @@ button, a, a.btn, .svg-inline--fa {
 	margin: 0 auto 2rem;
 }
 /*============= OUR SERVICES SECTION =============*/
+.fixed{
 
-.fixed {
+	background: url('../img/dark-img.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+/* .fixed {
 	position: relative;
 	width: 100%;
 	z-index: 1000 !important;
-}
-.fixed-wrap {
+} */
+/* .fixed-wrap {
 	clip: rect(0, auto, auto, 0);
 	position: absolute;
 	top: 0;
@@ -178,8 +185,8 @@ button, a, a.btn, .svg-inline--fa {
 	width: 100%;
 	height: 100%;
 	z-index: -999 !important;
-}
-.fixed-dark {
+} */
+/* .fixed-dark {
 	background-image: url('../img/dark-img.jpg');
 	z-index: -999 !important;
 	display: block;
@@ -192,7 +199,7 @@ button, a, a.btn, .svg-inline--fa {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	will-change: transform;
-}
+} */
 .dark {
 	background-color: rgba(0, 0, 0, .6);
 	padding: 7rem 0;
